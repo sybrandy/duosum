@@ -1,0 +1,23 @@
+duosum
+
+Usage
+=====
+
+duosum <filename>
+
+Description
+===========
+
+This is, in short, a combination of md5sum and sha1sum.  Instead of generating
+a single cryptographic hash, we generate two.  This is done because it is very
+unlikely that two files will have the the exact same md5 and sha1 hash values.
+
+These two algorithms were chosen only because they are fast.
+
+The output of the program is written to STDOUT.
+
+Purpose
+=======
+
+While this should prove useful for someone, this was an exercise in learning
+to use Google Go.  I wanted to start with something simple, but also useful.
